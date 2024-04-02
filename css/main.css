@@ -2,6 +2,19 @@ header, nav, footer{
     background-color: rgb(99, 6, 99);
     color: green;
 }
+
+header{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-decoration: underline;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -52,7 +65,7 @@ footer{
     padding: 20px;
 }
 
-ul.blog-list{
+ul.category-list{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -63,16 +76,42 @@ ul.blog-list{
     
 }
 
-ul.blog-list li{
+
+
+ul.category-list-li li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
     text-align: center;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 15px;
-    width: 45%;
+    padding: 10px;
+    width: 30%;
+    
+}
+
+ul.category-list li{
+    text-align: center;
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+    padding: 10px;
+    width: 30%;
+    list-style-type: none;
 }
 
 #teamName{
     font-size: 60px;
+}
+
+#tPrice{
+    text-align: bottom;
+}
+
+img{
+    width: 50%;
+    object-fit: cover;
 }
 
 @media all and (max-width:800px){
